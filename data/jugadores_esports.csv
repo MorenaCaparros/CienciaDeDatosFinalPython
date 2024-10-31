@@ -1,2 +1,9 @@
-nombre,juego,eliminaciones,asistencias,muertes,dano_infligido,rondas_o_minutos,kda
-dsf,lol,23,3,2,19023,23,13.0
+nombre,posicion,eliminaciones,asistencias,muertes,dano_infligido,minutos_jugados
+TestPlayer,MID,10,5,2,300,20
+TestPlayer,MID,10,5,2,300,20
+TestPlayer,MID,10,5,2,300,20
+TestPlayer,MID,10,5,2,300,20
+TestPlayer,MID,10,5,2,300,20
+TestPlayer,MID,10,5,2,300,20
+TestPlayer,MID,10,5,2,300,20
+sd,MID,2,3,1,23,12
