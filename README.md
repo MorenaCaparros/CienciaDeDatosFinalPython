@@ -1,10 +1,44 @@
-Enunciado del Problema
-Enunciado: Crear un sistema de análisis de rendimiento para equipos de eSports en juegos como LoL, Valorant y Counter-Strike. El sistema debe permitir a los jugadores ingresar sus estadísticas diarias, calcular métricas de rendimiento (como el KDA y el crecimiento de estadísticas), y visualizar los resultados de manera clara. El objetivo es mejorar el rendimiento del equipo, observando las métricas y progresos de cada jugador.
+# StatForge
 
-Desarrollo del Problema
-Objetivos:
+StatForge es una aplicación que permite comparar estadísticas de jugadores de League of Legends (LoL) utilizando gráficos interactivos. Este proyecto es el trabajo final para la materia de Python de la facultad de ingeniería de la UCASAL, en la carrera Licenciatura de Ciencia de Datos, en la Asignatura Programación II, a cargo del profesor Mario Ignacio Martinez
 
-Permitir ingresar estadísticas diarias de cada jugador.
-Calcular el KDA, el crecimiento de estadísticas diarias, y la eficiencia de cada jugador en sus rondas jugadas o minutos de juego.
-Generar gráficos de rendimiento y guardar datos históricos en un archivo CSV.
-Ofrecer una estructura modular para facilitar la ampliación del sistema.
+## Requisitos
+
+- Python 3.x
+- Kivy
+- Matplotlib
+- Pandas
+
+## Instalación
+
+1. Clona el repositorio:
+    - `main_app.py`: Archivo principal que inicia la aplicación Kivy.
+    - `visualizaciones.py`: Contiene funciones para mostrar gráficos.
+    - `aplicacion/pantallas/menu.py`: Contiene la definición de la pantalla del menú.
+    - `aplicacion/ui_config.py`: Configuración de colores y fuentes.
+    - `dataset.csv`: Dataset con las estadísticas de los jugadores.
+    - `log.jpg`: Logo de la aplicación.
+
+## Uso
+
+1. Ejecuta la aplicación:
+    ```sh
+    python src/main_app.py
+    ```
+
+2. En la pantalla principal, haz clic en el botón "Ver Jugadores" para abrir una ventana emergente con gráficos que comparan las estadísticas de los jugadores.
+
+## Funcionalidades
+
+- **Comparación de Jugadores**: Permite comparar estadísticas de diferentes jugadores de LoL mediante gráficos interactivos.
+- **Visualización de Datos**: Utiliza Matplotlib para generar gráficos que muestran las estadísticas de los jugadores.
+- **Interfaz de Usuario**: Desarrollada con Kivy, permite una navegación intuitiva y fácil de usar.
+- **Personalización**: Los usuarios pueden modificar el dataset `dataset.csv` para incluir sus propios datos y personalizar la configuración de la interfaz en `aplicacion/ui_config.py`.
+
+## Personalización
+
+Puedes personalizar la aplicación modificando los archivos en el directorio `aplicacion` y actualizando el dataset `dataset.csv` con tus propios datos.
+
+## Contribuciones
+
+Las contribuciones son bienvenidas. Por favor, abre un issue o un pull request para discutir cualquier cambio que te gustaría realizar.

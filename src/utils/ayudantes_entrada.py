@@ -2,6 +2,7 @@ import difflib
 
 POSICIONES_VALIDAS = {
     "MID": "MIDDLE",
+    "MIDDLE": "MIDDLE",
     "JUNGLE": "JUNGLE",
     "TOP": "TOP",
     "ADC": "ADC",
